@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 550 Diagoona
-
-https://templatemo.com/tm-550-diagoona
-
-*/
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -337,4 +331,12 @@ textarea {
     .tm-service-text { margin-top: 20px; }
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
+}
+.ability-list p{
+margin-bottom: 0;
+}
+.about-wrapper {
+    /* border: 1px solid red; */
+    background: rgba(44,53,60,0.2);
+    box-shadow: #2C353C;
 }

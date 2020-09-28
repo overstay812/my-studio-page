@@ -340,3 +340,12 @@ margin-bottom: 0;
     background: rgba(44,53,60,0.2);
     box-shadow: #2C353C;
 }
+.preview {
+    max-width: 200px;
+    height: 125px;
+    
+    
+}
+.widthElement  {
+    width: 200px;
+}

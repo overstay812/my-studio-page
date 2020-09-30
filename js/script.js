@@ -53,3 +53,11 @@ $(document).ready(function () {
         setBgOverlay();
     });
 });
+ 
+const moveBackground = event => {
+    let body = document.querySelector('.tm-container')
+    body.style.width = 100 + event.pageX /  1000 + '%'
+    body.style.height = 100 + event.pageX / 1000 + '%'
+ }
+
+window.document.addEventListener('mousemove', moveBackground )

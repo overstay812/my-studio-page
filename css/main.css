@@ -250,10 +250,10 @@ textarea {
 @media (max-width: 1200px) {
     .nav-item { margin-right: 30px; }
 
-    .tm-page-right {
+    /* .tm-page-right {
         padding-left: 30px;
         padding-right: 30px;
-    }
+    } */
 }
 
 @media (max-width: 992px) {    

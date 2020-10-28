@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['diagoona-bg-1.jpg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
+    const bgImgsNames = ['1.jpeg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
     $.backstretch(bgImgs, {duration: 4000, fade: 500});
@@ -53,3 +53,11 @@ $(document).ready(function () {
         setBgOverlay();
     });
 });
+ 
+const moveBackground = event => {
+    let body = document.querySelector('.tm-container')
+    body.style.width = 100 + event.pageX /  1000 + '%'
+    body.style.height = 100 + event.pageX / 1000 + '%'
+ }
+
+window.document.addEventListener('mousemove', moveBackground )

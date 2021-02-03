@@ -346,6 +346,7 @@ textarea {
     align-items: center;
     width: 100%;
     padding-right: 15px;
+    padding-top: 44px;
 
  }
     .sci {
@@ -409,8 +410,7 @@ margin-bottom: 0;
 .preview {
     max-width: 200px;
     height: 125px;
-    
-    
+      
 }
 .widthElement  {
     width: 200px;
@@ -418,11 +418,19 @@ margin-bottom: 0;
 
 .slide a img {
     display: flex;
-    width: 640px;
-    height: 360px;
-    background-color: aqua;
+    min-width: 640px;
+    max-height: 360px;
     margin-bottom: 40px;
 }
+@media (max-width: 770px) {
+    .slide a img {
+        display: flex;
+        min-width: 320px;
+        max-height: 180px;
+        margin-bottom: 40px;
+    }
+}
+
 .slide a h3 {
   color: white;
   font-size: 35px;
@@ -446,4 +454,9 @@ margin-bottom: 0;
     opacity: .75;
     color: #9CC;
     font-size: 20px;
+}
+.slick-dots {
+
+    bottom: -45px;
+
 }

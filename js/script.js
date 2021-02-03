@@ -70,6 +70,7 @@ $('.slider').slick({
     arrows: false,
     centerPadding: '1px',
     autoplay: true,
+    centerMode: true,
   autoplaySpeed: 10000,
 
 })

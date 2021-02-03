@@ -12,6 +12,7 @@ body {
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
+    outline: none;
 }
 
 ul { padding: 0; }
@@ -415,3 +416,34 @@ margin-bottom: 0;
     width: 200px;
 }
 
+.slide a img {
+    display: flex;
+    width: 640px;
+    height: 360px;
+    background-color: aqua;
+    margin-bottom: 40px;
+}
+.slide a h3 {
+  color: white;
+  font-size: 35px;
+}
+.slide p {
+    font-size: 27px;
+    margin-top: 30px;
+}
+.github-Link {
+    color: #9CC;
+    font-size: 25px;
+
+}
+.slick-dots li button:before{
+    color:white;
+    font-size: 20px;
+    opacity: 1;
+    
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #9CC;
+    font-size: 20px;
+}

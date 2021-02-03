@@ -61,3 +61,15 @@ const moveBackground = event => {
  }
 
 window.document.addEventListener('mousemove', moveBackground )
+
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    centerPadding: '1px',
+    autoplay: true,
+  autoplaySpeed: 10000,
+
+})
